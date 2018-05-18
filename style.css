@@ -46,23 +46,25 @@ header{
 }
 nav{
     
-    height:60px;
+    height:55px;
     display: grid;
     background-color:saddlebrown;
-    grid-template-columns: repeat(4, 13.5rem);
+    grid-template-columns: repeat(4, 10rem);
+    grid-column-gap: 5px;
+    align-content: center;
     
-    align-items:center;
-    justify-items:center;
-    justify-content: right;
+    
+    
+    
     
 }
 
 nav a{
     
-    height:35px;
-    width:80%;
+    height:30px;
+   
     text-align:center;
-    
+    font-size: 1.15rem;
    
    
     
