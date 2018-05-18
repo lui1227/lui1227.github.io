@@ -85,8 +85,8 @@ nav a{
 
 /*movil*/
 @media only screen 
-and (min-device-width : 360px) 
-and (max-device-width : 600px) {
+and (min-width : 360px) 
+and (max-width : 600px) {
     h1 header{
         font-size:5rem;
         
@@ -105,7 +105,7 @@ and (max-device-width : 600px) {
 
 /*tablet*/
 @media only screen 
-and (min-device-width : 720px) 
-and (max-device-width : 1024px)
+and (min-width : 720px) 
+and (max-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 2) {  
     }
