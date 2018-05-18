@@ -10,7 +10,9 @@ h1{
 .nuevo_post h1{
     font-size: 3.5rem;
 }
-@media only screen and (min-width 720px){
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
     h1{
         color: red;
         font-size: 5rem;
