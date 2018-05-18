@@ -1,6 +1,5 @@
 body{
     font-size:20px;
-     background-color: aliceblue;
     padding: 1px;;
     margin: 1px;
 }
@@ -32,6 +31,7 @@ header h4{
     padding-left: 20%;
     margin: 1px;
     margin-bottom: 10%;
+    font-size: 1.25rem;
    
 }
 
@@ -86,180 +86,26 @@ nav a{
 /*movil*/
 @media only screen 
 and (min-device-width : 360px) 
-and (max-device-width : 720px) {
-    body{
-    font-size:20px;
-     background-color: aliceblue;
-    padding: 1px;;
-    margin: 1px;
-}
-
-h1{
-    font-size: 5rem;
-    color: red;
-}
-
-header h1{
-    text-align:center;
-    grid-column:  2/ span 3;
+and (max-device-width : 600px) {
+    h1 header{
+        font-size:5rem;
+        
+    }
+    h4 header{
+        font-size: 1.125rem;
+    }
     
-  
-    margin: 1px;
-    padding: 1px;
-    font-size: 9rem;
-    
-
-}
-
-header h4{
-    
-    text-align: left;  
-    grid-row-start:2;
-    grid-row-end:3;
-    grid-column: 3/ span 4;
-    
-    padding-left: 20%;
-    margin: 1px;
-    margin-bottom: 10%;
-   
-}
-
-header{
-    display:grid;
-   
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
-    
-    justify-content:center;
-}
-nav{
-    
-    height:60px;
-    display: grid;
-    background-color:saddlebrown;
-    grid-template-columns: repeat(4, 13.5rem);
-    
-    align-items:center;
-    justify-items:center;
-    justify-content: right;
-    
-}
-
-nav a{
-    
-    height:35px;
-    width:80%;
-    text-align:center;
+    nav a{
     
    
-   
-    
-    
-    background-color:darkseagreen;
-    
-    
-    text-decoration: none;
-}
-.nuevo_post h1{
-    font-size: 3.5rem;
-}
-
-.container{
-    width: 100%;
-   
-    background-color: burlywood;
-    margin: 0 auto;
-}
+    width: 65%;
+    }
 }
 
 
 /*tablet*/
 @media only screen 
-and (min-device-width : 768px) 
+and (min-device-width : 720px) 
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 2) {  
-   body{
-    font-size:20px;
-     background-color: aliceblue;
-    padding: 1px;;
-    margin: 1px;
-}
-
-h1{
-    font-size: 5rem;
-    color: red;
-}
-
-header h1{
-    text-align:center;
-    grid-column:  2/ span 3;
-    
-  
-    margin: 1px;
-    padding: 1px;
-    font-size: 9rem;
-    
-
-}
-
-header h4{
-    
-    text-align: left;  
-    grid-row-start:2;
-    grid-row-end:3;
-    grid-column: 3/ span 4;
-    
-    padding-left: 20%;
-    margin: 1px;
-    margin-bottom: 10%;
-   
-}
-
-header{
-    display:grid;
-   
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
-    
-    justify-content:center;
-}
-nav{
-    
-    height:60px;
-    display: grid;
-    background-color:saddlebrown;
-    grid-template-columns: repeat(4, 13.5rem);
-    
-    align-items:center;
-    justify-items:center;
-    justify-content: right;
-    
-}
-
-nav a{
-    
-    height:35px;
-    width:80%;
-    text-align:center;
-    
-   
-   
-    
-    
-    background-color:darkseagreen;
-    
-    
-    text-decoration: none;
-}
-.nuevo_post h1{
-    font-size: 3.5rem;
-}
-
-.container{
-    width: 100%;
-   
-    background-color: burlywood;
-    margin: 0 auto;
-}}
+    }
