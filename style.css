@@ -72,19 +72,19 @@ nav a{
     text-align:center;
     font-size: 1.15rem;
     align-items: center;
-    color: brown;
+    color: darkseagreen;
     border-radius: 5px;
     
     
-    background-color:darkseagreen;
+   
     
     
     text-decoration: none;
 }
 
 nav a:hover{
-    background-color: brown;
-    color:darkseagreen;
+    background-color: darkseagreen;
+     color:saddlebrown;
 }
 .nuevo_post h1{
     font-size: 3.5rem;
